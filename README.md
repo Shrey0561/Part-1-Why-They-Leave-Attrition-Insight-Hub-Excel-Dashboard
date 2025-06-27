@@ -1,6 +1,6 @@
 # The Exit Equation: Understanding Attrition with Excel
 This project is Part 1 of a two-part HR analytics series. While Part 2 - *The Loyalty Blueprint* focuses on employee retention, this analysis uncovers *why employees leave*. Using Excel for both data analysis and dashboard visualization, this project explores the key risk factors and segments most vulnerable to attrition.
-Stay tuned for [*The Loyalty Blueprint*](#https://github.com/Shrey0561/Part-2-Why-They-Stay-Retention-Insight-Hub-SQL-Excel-) - The next chapter in decoding employee retention.
+Stay tuned for [*The Loyalty Blueprint*](https://github.com/Shrey0561/Why-They-Stay-Retention-Insight-Hub-SQL-Excel/tree/main) - The next chapter in decoding employee retention.
 
 ## Overview
 Using mock HR data with 1470 employee records, this dashboard breaks down turnover by department, role, demographic factors, and satisfaction metrics to pinpoint where the churn is coming from and why it matters.

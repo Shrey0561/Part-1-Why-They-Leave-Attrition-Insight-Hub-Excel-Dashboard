@@ -1,69 +1,84 @@
-# Why They Left: An Excel Dashboard on Employee Attrition
-This project explores employee attrition trends using *Excel* for data cleaning, and visualization.
-*This is Part 1 of a 2 Part HR Analytics Series.*
+# The Exit Equation: Understanding Attrition with Excel
+This project is Part 1 of a two-part HR analytics series. While Part 2 - *The Loyalty Blueprint* focuses on employee retention, this analysis uncovers *why employees leave*. Using Excel for both data analysis and dashboard visualization, this project explores the key risk factors and segments most vulnerable to attrition.
 Stay tuned for [*The Loyalty Blueprint*](#https://github.com/Shrey0561/Part-2-Why-They-Stay-Retention-Insight-Hub-SQL-Excel-) - The next chapter in decoding employee retention.
 
 ## Overview
-Using a dataset of 1470 mock HR records, this project dives deep into:
- - Which departments face the highest attrition?
- - Which roles are most affected?
- - Are there gender or overtime-related patterns in employee turnover?
- - Which employee segments are most likely to leave?
+Using mock HR data with 1470 employee records, this dashboard breaks down turnover by department, role, demographic factors, and satisfaction metrics to pinpoint where the churn is coming from and why it matters.
+
+## Key Questions Answered
+ - Which departments and roles see the most attrition?
+ - Are there gender or overtime-related turnover patterns?
+ - How does income, experience, or satisfaction influence exits?
+ - Which employee segments are most at risk of leaving?
 
 ## KPIs Tracked
- - *Total Attrition Count*
- - *Department with Highest Turnover*
- - *Most At-Risk Experience Level*
+| Metric                             | Value                         |
+|------------------------------------|-------------------------------|
+| *Total Attrition Rate*             | 16.12%                        |
+| *Fresh Hires Attrition*            | 34.88%                        |
+| *Department with Highest Attrition | Sales (20.63%)                |
+| *Job Role with Highest Attrition   | Sales Representative (39.76%) |
 
 ## Dashboard Preview
 Here's a snapshot of the dashboard you'll find in this repo
+
 ![Dashboard Preview](dashboard_preview.png)
 
 ## Insights Summary
 
 ### Departmental Trends
  - *Sales* had the highest attrition at *20.63%*, followed by *HR* at *19.05%*.
- - These trends suggest potential burnout, unclear growth paths, or compensation dissatisfaction in people-facing roles.
+ - These roles may face burnout, limited growth, or unclear KPIs, all potential flight risks.
 
-### Job Role Breakdown
- - *Sales Representatives* topped the charts with a massive *39.76%* attrition rate.
- - In contrast, *Research Directors* had only *2.5%* attrition, highlighting how seniority and role clarity may improve retention.
+### Role-Specific Breakdown
+ - *Sales Representatives* had an attrition rate of 39.76% nearly 4x the average.
+ - In contrast, *Research Directors* had only *2.5%* attrition, pointing to the stability of senior positions.
 
-### Gender Gap
- - *Males:* 17.01% attrition
- - *Females:* 14.80% attrition
- - The gender gap isn't drastic but may reflect differences in job alignment or external opportunities.
+### Gender Differences
+ - *Male Employees:* 17.01% attrition
+ - *Female Employees:* 14.80% attrition
+ - While the gap is narrow, it may reflect different role distributions or career drivers.
 
 ### Overtime & Burnout
- - Drastically, *30.53* of those doing overtime left.
- - Even among employees not working overtime, *10.44%* still quit, pointing to other factors like culture or leadership quality.
+ - *30.53* of employees who worked *overtime* eventually left.
+ - Even without overtime, *10.44% attrition* still occurred, suggesting that burnout isn't the only factor; culture, leadership, and career stagnation may also play a role.
 
 ### Income & Retention
- - *Low-income employees* had an attrition rate of *28.61%*, well above average.
- - This reinforces the need for equitable compensation structures, especially for frontline roles.
+ - Employees in the *low-income* band had a 28.61% attrition
+ - This reinforces the link between compensation and retention, especially in frontline roles.
 
 ### Experience Matters
- - *Fresh hires*: 34.88% attrition
- - *Older hires*: 12.91% attrition
- - This suggests gaps in onboarding, mentorship, or role expectation setting for early-stage employees.
+ - *Fresh hires (0-1 years)*: 34.88% attrition
+ - *Experienced Employees (5+ years)*: 12.91% attrition
+ - A significant gap, highlighting the need for stronger onboarding and early-stage engagement.
 
 ### Satisfaction Metrics
- - Attrition peaked at *31.25%* for employees rating Work-Life Balance as "1".
- - Even highly satisfied employees (rating "4") left, indicating retention is multi-dimensional, not just about satisfaction scores.
+ - *Work-Life Balance (Rating 1)*: 31.25% attrition
+ - *Job Satisfaction (Rating 1)*: 22.84% attrition
+ - Even those with high satisfaction ratings (4/5) were leaving, reminding us that engagement is multi-dimensional.
 
 ## Tools Used 
  - Microsoft Excel
    > Pivot Tables
    > Dashboard Design
 
-## What I Would Do Next
-If this were a real-world HR consulting project, I would explore: 
- - *Time-based trends* (monthly exits, tenure-based churn)
- - *Qualitative inputs* like exit interviews
- - Connecting data with employee engagement surveys for deeper insights.
+## Folder Structure 
+| File              | Description                    |
+|-------------------|--------------------------------|
+| `README.md`       | This file                      |
+| `/image/`         | Dashboard preview screenshot   |
+| `/data/`          | Cleaned data used in analytics |
+
+## What I'd Explore Next
+If this were a real consulting engagement:
+ - Add *exit interview data* to capture qualitative reasons for leaving
+ - Analyze *time-based patterns* in attrition (e.g., seasonality, post-promotion exits)
+ - Integrate *employee engagement surveys* to enrich predictive signals
 
 ## Let's Connect
-I am always open to chat about data, analytics or new opportunitis! Feel free to reach out via:
+I'm actively building tools to uncover workplace insights through data.
+Feel free to reach out via:
  * GitHub (#https://github.com/Shrey0561)
  * LinkedIn (#https://www.linkedin.com/in/shreya-srinath-879a66205/)
-Looking forward to collaborating and connecting!
+
+I'm always up for conversations or new opportunities!

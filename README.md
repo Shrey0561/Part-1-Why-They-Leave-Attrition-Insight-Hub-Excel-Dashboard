@@ -69,6 +69,9 @@ Here's a snapshot of the dashboard you'll find in this repo
 | `/image/`         | Dashboard preview screenshot   |
 | `/data/`          | Cleaned data used in analytics |
 
+## Case Study: Behind the Queries
+[Read full case study](https://docs.google.com/document/d/1UvtNh63Pqlk9doOYvelR3UggBd_6P2AbMk_uvuq11EQ/edit?usp=sharing)
+
 ## What I'd Explore Next
 If this were a real consulting engagement:
  - Add *exit interview data* to capture qualitative reasons for leaving
@@ -78,7 +81,8 @@ If this were a real consulting engagement:
 ## Let's Connect
 I'm actively building tools to uncover workplace insights through data.
 Feel free to reach out via:
- * GitHub (#https://github.com/Shrey0561)
- * LinkedIn (#https://www.linkedin.com/in/shreya-srinath-879a66205/)
+ * [GitHub](https://github.com/Shrey0561)
+ * [LinkedIn](https://www.linkedin.com/in/shreya-srinath-879a66205/)
+ * [Notion](https://www.notion.so/Data-Analyst-Portfolio-221ebe151fdd801e9445e32590b67758?source=copy_link)
 
 I'm always up for conversations or new opportunities!
